@@ -2,33 +2,42 @@ import React from 'react'
 
 const Career = () => {
   return (
-    <div className='career-timeline'>
-      <div className='career-container right'>
-        <div className='career-content'>
-          <h4>2021</h4>
-          <h5>Stratpoint Global Outsourcing Inc.</h5>
-          <p>Software engineer</p>
+    <div className='career-timeline container'>
+      <div className='career-container container-fancy'>
+        <div className='career-content content-fancy' style={{'backgroundColor': '#ffe4c4'}}>
+          <img src="../stratpoint.png" style={{'border-radius': '0%', 'width': '130px', 'height': '40px'}} alt="" />
+          <p>05/2021 - Present</p>
+          <div style={{'width': '100%'}}>
+            <p>Software engineer</p>
+          </div>
         </div>
       </div>
-      <div className='career-container right'>
-        <div className='career-content'>
-          <h4>2019</h4>
-          <h5>Cafe24 Philippines</h5>
-          <p>Junior web developer</p>
+      <div className='career-container container-fancy'>
+        <div className='career-content content-fancy' style={{'backgroundColor': '#c4ffe4'}}>
+          <img src="../cafe24.svg" style={{'border-radius': '0%', 'width': '80px', 'height': '40px'}} alt="" />
+          <p>06/2019 - 03/2021</p>
+          <div style={{'width': '100%'}}>
+            <p>Junior web developer</p>
+          </div>
         </div>
       </div>
-      <div className='career-container right'>
-        <div className='career-content'>
-          <h4>2019</h4>
-          <h5>Awardee</h5>
-          <p>TOP 10 Best Capstone Project (SY: 2015 - 2019)</p>
+      <div className='career-container container-fancy'>
+        <div className='career-content content-fancy' style={{'backgroundColor': '#e4c4ff'}}>
+          <img src="../bb-logo.png" style={{'border-radius': '0%', 'width': '130px', 'height': '25px'}} alt="" />
+          <p>11/2018 - 03/2019</p>
+          <div style={{'width': '100%'}}>
+            <p>Internship</p>
+          </div>
         </div>
       </div>
-      <div className='career-container right'>
-        <div className='career-content'>
-          <h4>2018</h4>
-          <h5>BotBros.AI</h5>
-          <p>Intern</p>
+      <div className='career-container container-fancy'>
+        <div className='career-content content-fancy' style={{'backgroundColor': '#ffc4fc'}}>
+          <img src="../pup-logo.png" style={{'border-radius': '0%', 'width': '50px', 'height': '50px'}} alt="" />
+          <p>2015 - 2019</p>
+          <div style={{'width': '100%'}}>
+            <p>Polytechnic University of the Philippines</p>
+            <p>Bachelor of Science in Information Technology</p>
+          </div>
         </div>
       </div>
     </div>
