@@ -4,7 +4,7 @@ const SocialMediaLinks = props => {
   return (
     <div className='social-links container'>
       <a
-        href="https://www.linkedin.com/in/erwin-andres-61a7341a5/"
+        href="https://www.linkedin.com/in/eaandres/"
         target={ '_blank'}
         rel={'noopener noreferrer'}>
           linkedIn
